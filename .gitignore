@@ -64,7 +64,7 @@ artifacts/
 # StyleCop
 StyleCopReport.xml
 
-# Files built by Visual Studio
+# Files built 
 *_i.c
 *_p.c
 *_h.h
@@ -92,6 +92,7 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+*.js
 
 # Chutzpah Test files
 _Chutzpah*
@@ -348,3 +349,9 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+#taskkey
+.taskkey
+
+#output directory
+/dist

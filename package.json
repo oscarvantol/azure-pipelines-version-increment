@@ -1,0 +1,11 @@
+{
+  "name": "azure-pipelines-version-increment",
+  "version": "0.0.0",
+  "description": "Helper packagejson",
+  "scripts": {
+    "build-it": "(cd version-increment-task && npm install && npm run build && npm prune --production )",
+    "pack-it": "tfx extension create --manifest-globs vss-extension.json --rev-version --output-path dist"
+  },
+  "author": "Oscar van Tol",
+  "license": "MIT"
+}
