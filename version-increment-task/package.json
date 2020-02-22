@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "author": "",
+  "author": "Oscar van Tol",
   "license": "MIT",
   "dependencies": {
     "@types/btoa": "^1.2.3",

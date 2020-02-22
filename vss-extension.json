@@ -2,25 +2,34 @@
     "manifestVersion": 1,
     "id": "version-increment",
     "name": "Version Increment",
-    "version": "0.1.3",
+    "version": "0.1.2",
     "publisher": "ovantol",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
-    ],    
+    ],
     "description": "Tools for working with versions. The version increment task updates a semver and writes it back to the pipeline definition using the azuredevops api.",
     "categories": [
         "Azure Pipelines"
     ],
     "icons": {
-        "default": "images/icon.png"        
+        "default": "images/icon.png"
     },
     "files": [
         {
             "path": "version-increment-task"
         }
     ],
+    "links": {
+        "getstarted": {
+            "uri": "https://github.com/oscarvantol/azure-pipelines-version-increment"
+        },
+        "repository": {
+            "type": "git",
+            "uri": "https://github.com/oscarvantol/azure-pipelines-version-increment"
+        }
+    },
     "contributions": [
         {
             "id": "custom-build-release-task",
