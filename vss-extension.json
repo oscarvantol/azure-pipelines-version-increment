@@ -2,8 +2,9 @@
     "manifestVersion": 1,
     "id": "version-increment",
     "name": "Version Increment",
-    "version": "0.1.2",
+    "version": "0.9.1",
     "publisher": "ovantol",
+    "public": true,
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -21,6 +22,11 @@
             "path": "version-increment-task"
         }
     ],
+    "content": {
+        "details": {
+          "path": "overview.md"
+        }
+    },
     "links": {
         "getstarted": {
             "uri": "https://github.com/oscarvantol/azure-pipelines-version-increment"
