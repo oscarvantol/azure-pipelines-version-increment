@@ -7,7 +7,7 @@ import btoa = require('btoa');
 async function run() {
     try {
         const versionVariable: string = tl.getInput('versionVariable', false) || 'version';
-        const dryRun: boolean = tl.getInput('dryRun', false) == 'true' || true;
+        const dryRun: boolean = tl.getInput('dryRun', false) == 'true';
         const incrementType: string = (tl.getInput('incrementType', false) || 'patch');
         const previewName: string =(tl.getInput('previewName', false) || 'preview');
 
