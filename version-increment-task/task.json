@@ -10,7 +10,7 @@
     "version": {
         "Major": 0,
         "Minor": 0,
-        "Patch": 4
+        "Patch": 6
     },
     "instanceNameFormat": "Bumping",
     "inputs": [
@@ -21,14 +21,6 @@
             "defaultValue": "version",
             "required": false,
             "helpMarkDown": "Define the name of the input version variable to read and update"
-        },
-        {
-            "name": "dryRun",
-            "type": "boolean",
-            "label": "Dry run",
-            "defaultValue": true,
-            "required": false,
-            "helpMarkDown": "Skip saving the new version number to the pipeline definition"
         },
         {
             "name": "incrementType",

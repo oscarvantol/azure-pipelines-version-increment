@@ -18,7 +18,7 @@ The following example shows the version-increment-task updating the input variab
   # update to the next prerelease version if it is **not** the master branch
   - task: version-increment-task@0
     inputs:
-      incrementType: patch
+      incrementType: prerelease
       versionVariable: packageVersion
     condition: and(succeeded(), ne(variables['build.sourceBranch'], 'refs/heads/master'))
     displayName: Generate preview version number

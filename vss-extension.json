@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "version-increment",
     "name": "Version Increment",
-    "version": "0.9.3",
+    "version": "0.9.8",
     "publisher": "ovantol",
     "public": true,
     "targets": [
