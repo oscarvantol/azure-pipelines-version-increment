@@ -18,7 +18,7 @@ jobs:
 
     - name: Run a one-line script
       run: |
-        npm install -g tfx-cli
+        npm install tfx-cli
         npm run build-it
         npm run pack-it
 
