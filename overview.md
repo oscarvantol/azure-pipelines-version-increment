@@ -9,7 +9,7 @@ The following example shows the version-increment-task updating the **input vari
 ```
 ...
   # update to the next patch version if it is the master branch
-  - task: version-increment-task@0
+  - task: version-increment-task@2
     inputs:
       incrementType: patch
       versionVariable: packageVersion
@@ -17,7 +17,7 @@ The following example shows the version-increment-task updating the **input vari
     displayName: Generate version number
 
   # update to the next prerelease version if it is **not** the master branch
-  - task: version-increment-task@0
+  - task: version-increment-task@2
     inputs:
       incrementType: prerelease
       versionVariable: packageVersion

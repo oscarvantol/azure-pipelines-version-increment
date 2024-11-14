@@ -8,9 +8,9 @@
     "category": "Azure Pipelines",
     "author": "Oscar van Tol",
     "version": {
-        "Major": 0,
+        "Major": 2,
         "Minor": 0,
-        "Patch": 6
+        "Patch": 0
     },
     "instanceNameFormat": "Bumping",
     "inputs": [
@@ -46,7 +46,7 @@
         }
     ],
     "execution": {
-        "Node10": {
+        "Node20_1": {
             "target": "src/index.js"
         }
     }
